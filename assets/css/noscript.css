@@ -1,0 +1,28 @@
+/*
+    Big Picture by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Basic Styles for NoScript */
+body {
+    background-color: #f5f5f5; /* Light background color for no JavaScript users */
+    color: #333; /* Dark text color for readability */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Hide elements intended for JavaScript-enabled users */
+body:before, body:after {
+    display: none;
+}
+
+/* Example: Style for no-JavaScript message */
+.no-js-message {
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffcc00; /* Attention-grabbing background color */
+    color: #000; /* Text color */
+    border: 1px solid #e0e0e0; /* Border to distinguish the message box */
+    border-radius: 5px; /* Rounded corners */
+}
